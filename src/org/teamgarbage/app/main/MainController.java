@@ -5,7 +5,7 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
-public class Controller {
+public class MainController {
 
     @FXML
     private Button button;
@@ -18,7 +18,7 @@ public class Controller {
     @FXML
     public void initialize() {
         button.setOnAction(e -> {
-            System.out.println("Button works");
+
         });
     }
 }
